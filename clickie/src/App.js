@@ -1,26 +1,53 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ImageCard from "./components/ImageCard";
+import Wrapper from "./components/Wrapper";
+import Nav from "./components/Title";
+import characters from "./characters.json";
+import BodyWrapper from "./components/BodyWrapper";
 
 class App extends Component {
+
+  state = {
+    characters
+  };
+
+  alert = {
+    inital: "Click an image to begin!",
+    win: "Success! You passed!",
+    lose: "You have already clicked this image!"
+  };
+
+  score = {
+    initial: 0,
+    highest: 0
+  }
+
+  clickImage = (id) => {
+    const characters = this.state.characters.filter((character) => character.id !== id);
+    this.setState({ characters });
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+          <Nav
+            title="Clicky Game"
+            alertText={this.alert.inital}
+            score={this.score.initial}
+            highest={this.score.highest}
+          ></Nav>
+        <BodyWrapper>
+          {this.state.characters.map((character) => (
+            <ImageCard
+              clickImage = {this.clickImage}
+              id = {character.id}
+              key = {character.id}
+              name = {character.name}
+              image = {character.image}
+            />
+          ))}
+        </BodyWrapper>
+      </Wrapper>
     );
   }
 }

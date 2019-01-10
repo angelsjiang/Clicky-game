@@ -1,0 +1,11 @@
+.bodyWrapper {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 80px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    margin: auto;
+}

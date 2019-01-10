@@ -1,0 +1,37 @@
+.navbar {
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family: "Arial";
+    float: left;
+}
+
+.alertText {
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family: "Arial";
+    float: left;
+    font-size: 1.2rem;
+}
+
+.score, 
+.highest {
+    color: white;
+    padding-left: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.highest {
+    padding-bottom: 50px;
+}

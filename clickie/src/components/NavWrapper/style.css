@@ -1,0 +1,8 @@
+.navWrapper {
+    background-color: grey;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-content: flex-start;
+    height: 200px;
+}
