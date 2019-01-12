@@ -4,6 +4,8 @@
     display: flex;
     flex-flow: row wrap;
     padding: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
