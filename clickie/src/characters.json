@@ -41,6 +41,36 @@
         "name": "Galadriel",
         "image": "https://nevalalee.files.wordpress.com/2011/08/galadriel.jpg",
         "click": 0
+    },
+    {
+        "id": 8,
+        "name": "Gollum",
+        "image": "https://www.turkishminute.com/wp-content/uploads/2016/04/gollum.jpg",
+        "click": 0
+    },
+    {
+        "id": 9,
+        "name": "Sauron",
+        "image": "http://www.mwctoys.com/images2/review_mouthsauron_3.jpg",
+        "click": 0
+    },
+    {
+        "id": 10,
+        "name": "Arwen",
+        "image": "https://i.pinimg.com/originals/42/44/e7/4244e751a0e99b845cafb645f35f1a8f.png",
+        "click": 0
+    },
+    {
+        "id": 11,
+        "name": "Legolas2",
+        "image": "https://i.pinimg.com/originals/04/80/29/048029f362c484a2a46b928afbe98837.jpg",
+        "click": 0
+    },
+    {
+        "id": 12,
+        "name": "Frodo2",
+        "image": "https://i.pinimg.com/originals/3e/8d/f3/3e8df305de06e42b630827a97e81168f.jpg",
+        "click": 0
     }
 
 ]

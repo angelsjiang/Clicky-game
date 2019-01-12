@@ -14,7 +14,7 @@ class App extends Component {
   alert = {
     text: "Click an image to begin!",
     initial: "Click an image to begin!",
-    win: "Success! You passed!",
+    win: "You guessed correctly!",
     lose: "You have already clicked this image!"
   };
 
@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   clickImage = (id) => {
-    // console.log(this.state.characters); //but why this shows up as changed?? asynchronous?
+    console.log(this.state.characters); //but why this shows up as changed?? asynchronous?
     
     for(var i = 0; i < this.state.characters.length; i++) {
       // console.log(id);
@@ -32,6 +32,9 @@ class App extends Component {
         const char = this.state.characters[i];
         
         if(char.click <= 0) {
+          const alert = this.alert.win;
+          this.alert.text = alert;
+          this.setState({ alert }); // how does it know which one?????
           char.click++;
           this.setState({char});
           this.increment(id);
@@ -42,10 +45,12 @@ class App extends Component {
           this.alert.text = alert;
           // console.log(alert);
           this.setState({ alert }); // how does it know which one?????
-          this.shuffleOrder();
+          this.setScoreZero();
+          this.resetImageCards();
         }
       }
     }
+    this.shuffleOrder();
   };
 
   increment = (id) => {
@@ -62,8 +67,34 @@ class App extends Component {
     }
   }
 
+  setScoreZero = () => {
+    let score = 0;
+    this.score.initial = score;
+    this.setState({ score });
+    }
+
+  resetImageCards = () => {
+    const characters = this.state.characters;
+
+    for(var i = 0; i < characters.length; i++) {
+      characters[i].click = 0;
+    };
+
+    this.setState({ characters });
+  }
+
   shuffleOrder = () => {
-    
+    const characters = this.state.characters;
+    let i = characters.length - 1;
+    for(; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = characters[i];
+      characters[i] = characters[j];
+      characters[j] = temp;
+    }
+    console.log(characters);
+
+    this.setState({ characters });
   };
 
   render() {
