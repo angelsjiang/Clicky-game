@@ -19,79 +19,54 @@
     },
     {
         "id": 4,
-        "name": "Smeagle",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgJ4329JKPa7iB5U0XYofUgCkaGo53n-8pl4W6o2MV05oOCEwu",
-        "click": 0
- 
-    },
-    {
-        "id": 5,
         "name": "Sam",
         "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-the-lord-of-the-rings-sean-astin.jpg",
         "click": 0
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Gandalf",
         "image": "http://1.bp.blogspot.com/-ye8I4wWGtAM/UVthb9pO4KI/AAAAAAAACwE/6jW1LZNfnUw/s1600/gandalf-02.jpg",
         "click": 0
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Galadriel",
         "image": "https://i.pinimg.com/236x/d0/17/37/d01737f39cb695ce92dfd95abb8bc134--lord-rings-lord-of-the-rings.jpg",
         "click": 0
     },
     {
-        "id": 8,
-        "name": "Gollum",
-        "image": "https://www.turkishminute.com/wp-content/uploads/2016/04/gollum.jpg",
-        "click": 0
-    },
-    {
-        "id": 9,
-        "name": "Sauron",
-        "image": "http://www.mwctoys.com/images2/review_mouthsauron_3.jpg",
-        "click": 0
-    },
-    {
-        "id": 10,
+        "id": 7,
         "name": "Arwen",
         "image": "https://images.8tracks.com/cover/i/002/070/762/large-70-2548.jpg?rect=14,0,471,471&q=98&fm=jpg&fit=max",
         "click": 0
     },
     {
-        "id": 11,
+        "id": 8,
         "name": "Legolas2",
         "image": "https://i.pinimg.com/236x/97/37/99/973799e34a6f8e057bfb3a96faa29aa3--lord-of-the-rings-the-lord.jpg",
         "click": 0
     },
     {
-        "id": 12,
+        "id": 9,
         "name": "Frodo2",
         "image": "https://pbs.twimg.com/profile_images/939439378111201281/Ty2UZAgF.jpg",
         "click": 0
     },
     {
-        "id": 13,
+        "id": 10,
         "name": "Galadriel2",
         "image": "https://i.pinimg.com/originals/9d/66/f0/9d66f0733b16c8c26cc35ea2f25a8112.jpg",
         "click": 0
     },
     {
-        "id": 14,
-        "name": "Arwen2",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQKYXz7RGP6OiKP4zrNL0ZN00_5D--JPo4cQkSEZv7Mcj5_0wdw",
-        "click": 0
-    },
-    {
-        "id": 15,
+        "id": 11,
         "name": "Aragorn2",
         "image": "https://vignette.wikia.nocookie.net/lotr/images/1/13/Aragorn_2.jpg/revision/latest?cb=20121121031552",
         "click": 0
     },
     {
-        "id": 16,
+        "id": 12,
         "name": "Legolas3",
         "image": "https://pbs.twimg.com/profile_images/2148501997/Aq4qocKCEAI44Ah_400x400.jpg",
         "click": 0
