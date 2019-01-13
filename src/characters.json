@@ -39,7 +39,7 @@
     {
         "id": 7,
         "name": "Galadriel",
-        "image": "https://nevalalee.files.wordpress.com/2011/08/galadriel.jpg",
+        "image": "https://i.pinimg.com/236x/d0/17/37/d01737f39cb695ce92dfd95abb8bc134--lord-rings-lord-of-the-rings.jpg",
         "click": 0
     },
     {
@@ -57,19 +57,43 @@
     {
         "id": 10,
         "name": "Arwen",
-        "image": "https://i.pinimg.com/originals/42/44/e7/4244e751a0e99b845cafb645f35f1a8f.png",
+        "image": "https://images.8tracks.com/cover/i/002/070/762/large-70-2548.jpg?rect=14,0,471,471&q=98&fm=jpg&fit=max",
         "click": 0
     },
     {
         "id": 11,
         "name": "Legolas2",
-        "image": "https://i.pinimg.com/originals/04/80/29/048029f362c484a2a46b928afbe98837.jpg",
+        "image": "https://i.pinimg.com/236x/97/37/99/973799e34a6f8e057bfb3a96faa29aa3--lord-of-the-rings-the-lord.jpg",
         "click": 0
     },
     {
         "id": 12,
         "name": "Frodo2",
-        "image": "https://i.pinimg.com/originals/3e/8d/f3/3e8df305de06e42b630827a97e81168f.jpg",
+        "image": "https://pbs.twimg.com/profile_images/939439378111201281/Ty2UZAgF.jpg",
+        "click": 0
+    },
+    {
+        "id": 13,
+        "name": "Galadriel2",
+        "image": "https://i.pinimg.com/originals/9d/66/f0/9d66f0733b16c8c26cc35ea2f25a8112.jpg",
+        "click": 0
+    },
+    {
+        "id": 14,
+        "name": "Arwen2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQKYXz7RGP6OiKP4zrNL0ZN00_5D--JPo4cQkSEZv7Mcj5_0wdw",
+        "click": 0
+    },
+    {
+        "id": 15,
+        "name": "Aragorn2",
+        "image": "https://vignette.wikia.nocookie.net/lotr/images/1/13/Aragorn_2.jpg/revision/latest?cb=20121121031552",
+        "click": 0
+    },
+    {
+        "id": 16,
+        "name": "Legolas3",
+        "image": "https://pbs.twimg.com/profile_images/2148501997/Aq4qocKCEAI44Ah_400x400.jpg",
         "click": 0
     }
 

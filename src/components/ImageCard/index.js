@@ -5,7 +5,7 @@ function ImageCard(props) {
     return (
         <div className="imageCard">
             <span onClick={() => props.clickImage(props.id)} className="counted">
-                <img className="rounded" alt={props.name} src={props.image} />
+                <img className="rounded img-thumbnail" alt={props.name} src={props.image} />
             </span>
         </div>
     );

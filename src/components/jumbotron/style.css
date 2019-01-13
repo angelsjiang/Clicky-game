@@ -1,0 +1,20 @@
+.jumbotron {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lead,
+.alertText,
+.score {
+    font-size: 20px;
+}

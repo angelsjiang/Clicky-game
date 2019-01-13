@@ -3,13 +3,15 @@ import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Title";
 import characters from "./characters.json";
+import Jumbotron from "./components/jumbotron";
 import BodyWrapper from "./components/BodyWrapper";
+import Footer from "./components/Footer";
 
 class App extends Component {
 
   state = {
     characters,
-    alert: '',
+    alert: 'Click on an image to begin!',
     score: 0,
     highest: 0,
   };
@@ -95,10 +97,12 @@ class App extends Component {
       <Wrapper>
         <Nav
           title="Clicky Game"
+        ></Nav>
+        <Jumbotron
           alertText={this.state.alert}
           score={this.state.score}
           highest={this.state.highest}
-        ></Nav>
+        ></Jumbotron>
         <BodyWrapper>
           {this.state.characters.map((character) => (
             <ImageCard
@@ -111,6 +115,7 @@ class App extends Component {
             />
           ))}
         </BodyWrapper>
+        <Footer></Footer>
       </Wrapper>
     );
   }
