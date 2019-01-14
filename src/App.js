@@ -34,7 +34,12 @@ class App extends Component {
       if(this.state.characters[i].id === id) {
         const char = this.state.characters[i];
         
-        if(char.click <= 0) {
+        if(this.state.score >= 12) {
+          alert("You got it!");
+          this.setScoreZero();
+          this.resetImageCards();
+        }
+        else if (char.click <= 0) {
           this.setState({ alert: this.alert.win });
           char.click++;
           this.setState({char});
@@ -44,6 +49,7 @@ class App extends Component {
           this.setState({ alert: this.alert.lose });
           this.setScoreZero();
           this.resetImageCards();
+          alert("Uh oh, you clicked on the same image...");
         }
       }
     }
